@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Alex Brush');
+@import url('https://fonts.googleapis.com/css?family=Barrio');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -216,23 +218,76 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
-
+/*css from in class demo is above */
 /* my css starts after this point*/
+@import url('https://fonts.googleapis.com/css?family=Alex Brush');
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+.buttonhold{
+	text-align:center;
+}
 
-
-
-
-
-
+form {
+  max-width: 355px;
+  margin: 0;
+  padding: 10px 10px;
+  background-color: red;
+}
+  label {
+    
+  }
+h2{ 
+	
+	text-align:left;
+	font-family: 'Alex Brush';
+}
 h1
 {
 	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 250%;
 }
 body
 {
-	
+	background-color: blue;
+}
+p {
+    
 }
 div
 {
 	
+	margin: 5px auto; 
+}
+
+@media screen and (min-width: 480px) {
+  label {
+    
+  }
+
+h1
+{
+	text-align:center;
+	font-family: 'Barrio';
+	font-size: 400%;
+}
+body
+{
+	background-color: lightblue;
+}
+p {
+    
+}
+h2{
+	text-align:center;
+}
+div
+{
+	 
+}
+form {
+  max-width: 355px;
+  margin: 35px auto;
+  padding: 20px 30px;
+  background-color: red;
+}
 }
