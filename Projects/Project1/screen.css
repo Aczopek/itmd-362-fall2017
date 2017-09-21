@@ -241,9 +241,11 @@ form {
   margin: 0;
   padding: 10px 10px;
   background-color: red;
+  overflow: auto;
+  position: fixed;
 }
 h2{ 
-	
+	font-size: 150%;
 	text-align:left;
 	font-family: 'Alex Brush';
 }
