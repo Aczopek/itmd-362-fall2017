@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Lab 3</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="screen.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+	
+	
+	
+	<div>
+	<h1>Coincidence or Not</h1>
+	<div class="buttonwrapper">
+	<button onclick="document.getElementById('signUp').style.display='block'" style="width:auto;">Sign Up</button>
+	</div>
+	
+	</div>
+	
+
+	<div id="signUp" class="signingup">
+		 <span onclick="document.getElementById('signUp').style.display='none'" class="close" title="Close Modal">&times;</span>
+			<form method="get" action="#null" autocomplete="on">
+				<div>
+					<h2> Put in your information here: </h2>
+					<!--<label for="first-name">First Name</label>-->
+					<input type="text" name="First_Name" id ="first-name"placeholder="First Name">
+					<!--<label for="last-name">Last Name</label>-->
+					<input type="text" name="Last_Name" id ="last-name"placeholder="Last Name">
+					<p>
+					<label for="email">Email:</label>
+					<input type="text" name="Email" id ="email" placeholder= "example@site.com" required>
+					</p>
+					<p>
+					<label for="pasword">Password:</label>
+					<input type="password" name="Enter_Password" id ="password" placeholder= "Enter Pasword" required>
+					</p>
+					<p>
+					<label for="pasword">Repeat Password:</label>
+					<input type="password" name="Enter_Password_Again" id ="password" placeholder= "Re-enter Pasword" required>
+					</p>
+					<!--
+					<p>
+					<label for="phone-number">Phone Number:</label>
+					<input type="text" name="Phone-number" id ="phone-number"placeholder="xxx-xxx-xxxx" required>
+					</p>
+					<p>
+					<label for="birthdate">Date of Birth:</label>
+					<input type="text" name="Date_of_Birth" id ="birthdate" placeholder="##/##/####" required>
+					</p>
+					-->
+				</div>
+				<div>
+				<h2> Join our community form to discuss odd things that happen in life.  </h2>
+					<div class="buttonwrapper">
+						<button type="button" onclick="document.getElementById('signUp').style.display='none'" class="cancelbuton">Cancel</button>
+						<button type="submit" class="signupbutton">Sign Up</button>
+					</div>
+				</div>
+			</form>
+		
+		
+	</div>
+		<h1>Do Things Happen for a Reason?<h1>
+</body>
+</html>
