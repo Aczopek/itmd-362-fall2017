@@ -220,11 +220,12 @@ textarea {
 }
 /*css from in class demo is above */
 /* my css starts after this point*/
-img
+img /* This one aligns the pictures how they are put into the page */
 {
-	margin: 0;
+	display: block;
+	margin: 0 auto;
   padding: 0;
-   width:100%;
+   width:95%;
     height:30%;
 }
 
@@ -252,16 +253,18 @@ form {
   overflow: auto;
   position: fixed;
 }
-h2{ 
+h2{  /* set the color and where text is on the page*/
 	font-size: 150%;
 	text-align:left;
 	font-family: 'Alex Brush';
+	color: white;
 }
-h1
+h1   /* set the color and where text is on the page*/
 {
 	
 	font-family: "Times New Roman", Times, serif;
 	font-size: 250%;
+	color: white;
 }
 body
 {
@@ -287,24 +290,34 @@ body
     position: absolute;
     top: 50%;
 }
- h2{
+ h2{ /* set the color and where text is on the page*/
 	text-align:center;
 	font-size: 250%;
+	color: black;
 }
- body
+ body/* sets color for the background*/
 {
 	background-color: lightblue;
 }
-h1
+h1 /* set the color and where text is on the page*/
 {
 	text-align:center;
 	font-family: 'Barrio';
 	font-size: 400%;
+	color: black;
 }
  form {
   max-width: 355px;
   margin: 35px auto;
   padding: 20px 30px;
   background-color: red;
+}
+img /* This one aligns the pictures how they are put into the page */
+{
+	display: block;
+	margin: 0 auto;
+  padding: 0;
+   width:70%;
+    height:100%;
 }
 }
