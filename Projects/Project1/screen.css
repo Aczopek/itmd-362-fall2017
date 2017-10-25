@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alex Brush');
 @import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Berkshire Swash');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -228,7 +230,6 @@ img /* This one aligns the pictures how they are put into the page */
    width:95%;
     height:30%;
 }
-
 .buttonwrapper {
     text-align: left;
 }
@@ -244,6 +245,7 @@ button
     color: white;
     border: none;
     cursor: pointer;
+	font-family: 'Berkshire Swash';
 }
 form {
   max-width: 355px;
@@ -253,22 +255,41 @@ form {
   overflow: auto;
   position: fixed;
 }
+input
+{
+	font-family: 'Righteous';	
+	line-height: 2px;
+	line-height: 100%;/*line hight set to hundred percent so lines dont cross each other nomater size */
+}
+div {
+   
+	
+    
+}
+p
+{
+	font-family: 'Righteous';	
+	line-height: 2px;
+	line-height: 100%;
+}
 h2{  /* set the color and where text is on the page*/
 	font-size: 150%;
 	text-align:left;
 	font-family: 'Alex Brush';
 	color: white;
+	line-height: 100%;
 }
 h1   /* set the color and where text is on the page*/
 {
 	
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Righteous';
 	font-size: 250%;
 	color: white;
+	line-height: 100%;
 }
 body
 {
-	background-color: blue;
+	background-color: #000000;
 }
 .signingup
 {
@@ -297,7 +318,7 @@ body
 }
  body/* sets color for the background*/
 {
-	background-color: lightblue;
+	background-color: #20B2AA;
 }
 h1 /* set the color and where text is on the page*/
 {
