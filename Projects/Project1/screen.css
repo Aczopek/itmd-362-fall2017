@@ -260,17 +260,17 @@ input
 	font-family: 'Righteous';	
 	line-height: 2px;
 	line-height: 100%;/*line hight set to hundred percent so lines dont cross each other nomater size */
-}
-div {
-   
 	
-    
+	display: table-cell;/* vertically alligning input boxes or attemting to*/
+   vertical-align:middle;
 }
+
 p
 {
 	font-family: 'Righteous';	
 	line-height: 2px;
 	line-height: 100%;
+
 }
 h2{  /* set the color and where text is on the page*/
 	font-size: 150%;
@@ -339,6 +339,6 @@ img /* This one aligns the pictures how they are put into the page */
 	margin: 0 auto;
   padding: 0;
    width:70%;
-    height:100%;
+    height:120%;
 }
 }
